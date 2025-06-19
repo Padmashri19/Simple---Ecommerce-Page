@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    .main {
+        position: relative;
+        height: 800px;
+        width: 100%;
+        background-image: url("Login.jpg");
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        background-size: cover;
+    }
+
+    .outline {
+        position: absolute;
+        top: 20%;
+        left: 38%;
+        height: 370px;
+        width: 320px;
+        border: 1px solid white;
+        border-radius: 15px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .input {
+        margin: 10px;
+        height: 30px;
+        width: 250px;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 20px;
+        text-indent: 20px;
+        font-size: 18px;
+        margin-left: -15px;
+    }
+
+    ::placeholder {
+        color: white;
+        font-size: 15px;
+    }
+
+    button {
+        font-family: 'Times New Roman', serif;
+        font-size: large;
+        margin: 20px;
+        height: 40px;
+        width: 250px;
+        border: 2px solid white;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        margin-left: 45px;
+    }
+    .sign-up {
+            margin-top: 15px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+</style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="outline">
+            <h1 style="color: white;">
+                Login
+            </h1>
+            <input class="input" type="text" placeholder="Username">
+            <br>
+            <input class="input" type="password" placeholder="Password">
+            <br>
+            <input type="checkbox">
+            Remember me
+            <a href="#">
+                Forget password
+            </a>
+            <button>
+                <b>
+                    Login
+                </b>
+            </button>
+
+            <div class="sign-up">
+                <a href="#">Sign Up</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
